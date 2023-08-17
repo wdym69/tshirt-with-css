@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: grid;
+    justify-content: center;
+}
+
+.perosnal-details-form{
+    padding: 50px 100px;
+    background-color: lightblue;
+    height: 500px;
+    border: 0.5px solid ;
+}
+
+.tshirt-details-form{
+    padding: 50px 100px;
+    background-color: aqua;
+    height: 500px;
+    border: 0.5px solid ;
+
+}
+.forms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding: 12px;
+    place-items: center;
+}
+
+.text-input{
+    padding: 12px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+textarea{
+    resize: none;
+    padding: 12px;
+    font-size: 15px;
+    max-width: 250px;
+    box-shadow: 1px 1px 1px lightgray;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
